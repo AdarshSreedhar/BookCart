@@ -2,7 +2,7 @@
 
 A simple application that demonstrates various kinds of operations on books sold online.
 
- **FRONTEND** : ANGULAR 2 , MATERIAL DESIGN LITE FRAMEWORK
+ **FRONTEND** : ANGULAR 2 , MATERIAL DESIGN LITE FRAMEWORK    
  **BACKEND**  : NODEJS , MySQL
 ***************
 
@@ -12,7 +12,7 @@ A simple application that demonstrates various kinds of operations on books sold
 	1. TABLE NAME : category
 	Attributes are :
 	+--------+-----------+
-	| cat_no | cat\_names |
+	| cat_no | cat_names |
 	+--------+-----------+
 	cat_no is the category number(Primary Key).
 	cat_names is the name of the category.
@@ -27,8 +27,8 @@ A simple application that demonstrates various kinds of operations on books sold
 	description of the book.
 	price of the book. 
 	copies is the number of copies of the book.
-	c\_no is the category number which is the foriegn key that is referring to cat_no of the category table.
-	Cascade c_no when the its referring cat\_no gets deleted.
+	c_no is the category number which is the foriegn key that is referring to cat_no of the category table.
+	Cascade c_no when the its referring cat_no gets deleted.
 	
 ***************
 
