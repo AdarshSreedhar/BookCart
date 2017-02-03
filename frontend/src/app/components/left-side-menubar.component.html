@@ -1,0 +1,71 @@
+<main class="mdl-layout__content">
+    <div class="page-content">
+    <!-- Your content goes here -->
+    	<div class="mdl-grid">
+    		<ul class="demo-list-item mdl-list">
+  				<li class="mdl-list__item">
+    				<span class="mdl-list__item-primary-content">
+    					<label class="mdl-button mdl-js-button mdl-button--icon">
+    						<i class="material-icons" [routerLink]="['/add/category']">group</i>
+    					</label>
+      							Add category
+    				</span>
+  				</li>
+  				<li class="mdl-list__item">
+    				<span class="mdl-list__item-primary-content">
+    					<label class="mdl-button mdl-js-button mdl-button--icon">
+    						<i class="material-icons" [routerLink]="['/add/books']">grade</i>
+    					</label>
+      							Add Books
+    				</span>
+  				</li>
+  				<li class="mdl-list__item">
+    				<span class="mdl-list__item-primary-content">
+    					<label class="mdl-button mdl-js-button mdl-button--icon">
+    						<i class="material-icons" [routerLink]="['/del/category']">restore</i>
+    					</label>
+      							Delete Category
+    				</span>
+  				</li>
+  				<li class="mdl-list__item">
+    				<span class="mdl-list__item-primary-content">
+    					<label class="mdl-button mdl-js-button mdl-button--icon">
+    						<i class="material-icons" [routerLink]="['/get/books/price']">update</i>
+    					</label>
+      							Get Price
+    				</span>
+  				</li>
+  				<li class="mdl-list__item">
+    				<span class="mdl-list__item-primary-content">
+    					<label class="mdl-button mdl-js-button mdl-button--icon">
+    						<i class="material-icons" [routerLink]="['/mod/books/price']">trending_up</i>
+    					</label>
+      							Modify Price
+    				</span>
+  				</li>
+
+          <li class="mdl-list__item">
+            <!-- Right aligned menu below button -->
+      <!--<button id="demo-menu-lower-right"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">more_vert</i>
+      </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-right">
+      <li class="mdl-menu__item" *ngFor="let category of categories" (click) = "getEachCategory(category.cat_names)">{{category.cat_names}}</li>
+      </ul>-->
+          <span class="mdl-list__item-primary-content">
+              <label class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons" [routerLink]="['each/books']">restore</i>
+              </label>
+                    Get Each Category Books
+            </span>
+          </li>
+
+  				<hr>
+			</ul>
+			
+  		</div>
+    </div>
+  </main>

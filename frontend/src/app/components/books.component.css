@@ -1,0 +1,25 @@
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #42a5f5;
+  width: 500px;
+  height: 100px;
+  /*background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
+}
+
+:host {
+	display: block;  
+	width: 800px;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 90px;
+}
+
+.mdl-grid {
+	width:1200px;
+}
